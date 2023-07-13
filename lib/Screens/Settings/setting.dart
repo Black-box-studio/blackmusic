@@ -3840,7 +3840,7 @@ class _SettingPageState extends State<SettingPage>
                                         Navigator.pop(context);
                                         launchUrl(
                                           Uri.parse(
-                                            'https://sangwan5688.github.io/download/',
+                                            'https://CinecraftStudio.github.io/download/',
                                           ),
                                           mode: LaunchMode.externalApplication,
                                         );
@@ -3882,7 +3882,7 @@ class _SettingPageState extends State<SettingPage>
                             Share.share(
                               '${AppLocalizations.of(
                                 context,
-                              )!.shareAppText}: https://sangwan5688.github.io/',
+                              )!.shareAppText}: https://CinecraftStudio.github.io/',
                             );
                           },
                           dense: true,
@@ -3904,7 +3904,7 @@ class _SettingPageState extends State<SettingPage>
                           onTap: () {
                             launchUrl(
                               Uri.parse(
-                                'https://www.buymeacoffee.com/ankitsangwan',
+                                'https://www.buymeacoffee.com/blackbox.studio',
                               ),
                               mode: LaunchMode.externalApplication,
                             );
@@ -3927,7 +3927,7 @@ class _SettingPageState extends State<SettingPage>
                           isThreeLine: true,
                           onTap: () {
                             const String upiUrl =
-                                'upi://pay?pa=ankit.sangwan.5688@oksbi&pn=BlackHole';
+                                'upi://pay?pa=vinothvin8012@oksbi &pn=Vinoth "vin" &am=10 &cu=INR';
                             launchUrl(
                               Uri.parse(upiUrl),
                               mode: LaunchMode.externalApplication,
@@ -3936,7 +3936,7 @@ class _SettingPageState extends State<SettingPage>
                           onLongPress: () {
                             copyToClipboard(
                               context: context,
-                              text: 'ankit.sangwan.5688@oksbi',
+                              text: 'vinothvin8012@oksbi',
                               displayText: AppLocalizations.of(
                                 context,
                               )!
@@ -3953,7 +3953,7 @@ class _SettingPageState extends State<SettingPage>
                             onPressed: () {
                               copyToClipboard(
                                 context: context,
-                                text: 'ankit.sangwan.5688@oksbi',
+                                text: 'vinnothvin8012@oksbi',
                                 displayText: AppLocalizations.of(
                                   context,
                                 )!
@@ -4012,7 +4012,7 @@ class _SettingPageState extends State<SettingPage>
                                                 Navigator.pop(context);
                                                 launchUrl(
                                                   Uri.parse(
-                                                    'https://mail.google.com/mail/?extsrc=mailto&url=mailto%3A%3Fto%3Dblackholeyoucantescape%40gmail.com%26subject%3DRegarding%2520Mobile%2520App',
+                                                    'https://mail.google.com/mail',
                                                   ),
                                                   mode: LaunchMode
                                                       .externalApplication,
@@ -4043,7 +4043,7 @@ class _SettingPageState extends State<SettingPage>
                                                 Navigator.pop(context);
                                                 launchUrl(
                                                   Uri.parse(
-                                                    'https://t.me/joinchat/fHDC1AWnOhw0ZmI9',
+                                                    'https://t.me',
                                                   ),
                                                   mode: LaunchMode
                                                       .externalApplication,
@@ -4074,7 +4074,7 @@ class _SettingPageState extends State<SettingPage>
                                                 Navigator.pop(context);
                                                 launchUrl(
                                                   Uri.parse(
-                                                    'https://instagram.com/sangwan5688',
+                                                    'https://instagram.com',
                                                   ),
                                                   mode: LaunchMode
                                                       .externalApplication,
@@ -4137,7 +4137,7 @@ class _SettingPageState extends State<SettingPage>
                                                 Navigator.pop(context);
                                                 launchUrl(
                                                   Uri.parse(
-                                                    'https://t.me/joinchat/fHDC1AWnOhw0ZmI9',
+                                                    'https://t.me',
                                                   ),
                                                   mode: LaunchMode
                                                       .externalApplication,
@@ -4168,7 +4168,7 @@ class _SettingPageState extends State<SettingPage>
                                                 Navigator.pop(context);
                                                 launchUrl(
                                                   Uri.parse(
-                                                    'https://t.me/blackhole_official',
+                                                    'https://t.me',
                                                   ),
                                                   mode: LaunchMode
                                                       .externalApplication,

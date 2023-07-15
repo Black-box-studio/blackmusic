@@ -20,7 +20,7 @@ def flutterVersionName = localProperties.getProperty('flutter.versionName')
 if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
-//def lifecycle_version = "2.4.0"
+def lifecycle_version = "2.5.0"
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
@@ -85,5 +85,5 @@ flutter {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.google.android.material:material:1.9.0'
-    //implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
 }

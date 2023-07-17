@@ -281,8 +281,8 @@ class _HomePageState extends State<HomePage> {
                         alignment: Alignment.topCenter,
                         image: AssetImage(
                           Theme.of(context).brightness == Brightness.dark
-                              ? 'assets/header-dark.jpg'
-                              : 'assets/header.jpg',
+                              ? 'assets/header-dark.png'
+                              : 'assets/header.png',
                         ),
                       ),
                     ),

@@ -7,8 +7,8 @@
  <group 
      android:scaleX="0.55" 
      android:scaleY="0.55"
-     android:translateX="70"
-     android:translateY="70" >
+     android:translateX="80"
+     android:translateY="80" >
   <path
       android:pathData="m279.2,315.2s-31.4,38.4 -87.8,37.6c-56.4,-0.8 -127.8,-52.5 -123.8,-155.2 3.2,-83.9 49.4,-134.8 90.9,-167 54.1,-41.8 198.3,-67.8 312.7,107.4 0,0 -59.8,-58.8 -128.8,-75.5 -84.9,-20.6 -147.7,12.7 -179.2,53.3 -37.4,48.1 -35.8,127.8 9.2,170 53.8,50.6 106.8,29.4 106.8,29.4Z">
     <aapt:attr name="android:fillColor">

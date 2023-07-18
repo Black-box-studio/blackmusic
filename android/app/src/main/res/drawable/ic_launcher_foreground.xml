@@ -1,14 +1,16 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:tools="http://schemas.android.com/tools"
     android:width="500dp"
     android:height="500dp"
     android:viewportWidth="500"
-    android:viewportHeight="500">
+    android:viewportHeight="500"
+    tools:ignore="VectorRaster">
     <group
-        android:scaleX="0.60"
-        android:scaleY="0.60"
-        android:translateX="100"
-        android:translateY="100"
+        android:scaleX="0.50"
+        android:scaleY="0.50"
+        android:translateX="125"
+        android:translateY="125"
         android:pivotX="0"
         android:pivotY="0">
         <path

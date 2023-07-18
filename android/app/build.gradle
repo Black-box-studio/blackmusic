@@ -40,6 +40,7 @@ android {
         targetSdkVersion 29
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+        vectorDrawables.useSupportLibrary = true
     }
 
     // remove signingConfigs when running debug version
@@ -89,4 +90,5 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
     implementation "androidx.appcompat:appcompat:1.6.1"
+    implementation "com.android.support:appcompat-v7:23.2.0"
 }

@@ -127,7 +127,7 @@ class _AboutPageState extends State<AboutPage> {
                                       Navigator.pop(context);
                                       launchUrl(
                                         Uri.parse(
-                                          'https://sangwan5688.github.io/download/',
+                                          'https://black-box-studio.github.io/blackboxstudio',
                                         ),
                                         mode: LaunchMode.externalApplication,
                                       );
@@ -169,7 +169,7 @@ class _AboutPageState extends State<AboutPage> {
                           Share.share(
                             '${AppLocalizations.of(
                               context,
-                            )!.shareAppText}: https://sangwan5688.github.io/',
+                            )!.shareAppText}: https://black-box-studio.github.io/blackboxstudio',
                           );
                         },
                         dense: true,

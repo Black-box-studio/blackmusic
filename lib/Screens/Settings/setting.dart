@@ -3840,7 +3840,7 @@ class _SettingPageState extends State<SettingPage>
                                         Navigator.pop(context);
                                         launchUrl(
                                           Uri.parse(
-                                            'https://CinecraftStudio.github.io/download/',
+                                            'https://black-box-studio.github.io/download/',
                                           ),
                                           mode: LaunchMode.externalApplication,
                                         );
@@ -3882,7 +3882,7 @@ class _SettingPageState extends State<SettingPage>
                             Share.share(
                               '${AppLocalizations.of(
                                 context,
-                              )!.shareAppText}: https://CinecraftStudio.github.io/',
+                              )!.shareAppText}: https://black-box-studio.github.io/blackboxstudio',
                             );
                           },
                           dense: true,
